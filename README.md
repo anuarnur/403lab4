@@ -9,4 +9,5 @@ for tasks:
   rosrun lab4 test_moveit
   rosrun lab4 rectangle
   rosrun lab4 circle
- 
+
+Before starting please move manipulator from the home position, because sometimes the "goal constrains has been met" can occur if we start from the home position.
