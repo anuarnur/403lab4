@@ -1,0 +1,17 @@
+controller_list:
+    - name: robot/arm
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints:
+      - motortom2m
+      - joint2
+      - joint4
+      - joint6
+
+    - name: robot/end_effector
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints:
+      - end

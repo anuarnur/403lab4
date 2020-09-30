@@ -1,0 +1,10 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - motortom2m
+      - joint2
+      - joint4
+      - joint6
+  - name: fake_end_effector_controller
+    joints:
+      - end
